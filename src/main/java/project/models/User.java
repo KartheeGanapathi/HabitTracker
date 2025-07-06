@@ -38,7 +38,7 @@ public class User {
     private String email;
 
     @Builder.Default
-    private Boolean isActive = true;
+    private Boolean isActive = Boolean.TRUE;
 
     @NotNull
     @Column(name = "first_name")
